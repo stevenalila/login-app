@@ -44,8 +44,9 @@ INSTALLED_APPS = [
     'allauth.socialaccount.providers.facebook', #added providers
     'allauth.socialaccount.providers.linkedin', #added providers
     'allauth.socialaccount.providers.pinterest', #added providers
+    'allauth.socialaccount.providers.google',#added providers
 ]
-
+SITE_ID = 1
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
